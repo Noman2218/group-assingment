@@ -99,6 +99,18 @@ ul {
     justify-content: center;
     margin: 17px;
 }
+.menu-items-navbar button{
+        display: block;
+        border: none;
+        background: none;
+        text-align: left;
+        margin-bottom: 10px; /* Adjust the margin between items */
+        cursor: pointer;
+    
+    button div {
+        margin-right: 10px;
+    }
+}
 
 .menu-items-navbar a {
     display: flex;
@@ -199,4 +211,50 @@ footer p {
 footer h2{
         color:#FEA116;
         margin:20px;
+}
+.nav-shortcuts{
+line-height:28px;
+margin: 28px;
+}
+.nav-shortcuts-2{
+line-height:28px;
+margin: 28px;
+top:-25px ;
+position: relative;
+}
+.nav-shortcuts-3{
+line-height:28px;
+margin: 28px;
+top:-12px ;
+position: relative;
+}
+.nav-shortcuts-4{
+line-height:28px;
+margin: 28px;
+top:-37px ;
+position: relative;
+}
+.nav-shortcuts-5{
+line-height:28px;
+margin: 63px;
+top:-35px ;
+display:flex; 
+position:relative;
+}
+.nav-shortcuts-5-div-2{
+display: flex;
+margin: 5px;
+right: -500px;
+position: relative;
+text-decoration: none;
+}
+.nav-shortcuts-5-div-1{
+/* display: flex; */
+margin: 5px;
+/* right: -500px; */
+position: relative;
+text-decoration: none;
+}
+footer > table{
+margin: 40px;;    
 }
